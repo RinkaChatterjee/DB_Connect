@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my title</title>
+</head>
+<body>
+{% if obj %}
+{% for k in obj %}
+    {{k.fname}}
+    {{k.lname}}
+    {{k.age}}
+    {{k.id}}
+    <hr>
+
+{% endfor %}
+{% endif %}
+</body>
+</html>
